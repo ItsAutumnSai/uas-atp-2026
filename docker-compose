@@ -1,1 +1,7 @@
-test
+services:
+  html-test:
+    image: testapp:1.0
+    container_name: uasatp
+    ports:
+      - 8001:3000
+    restart: always
